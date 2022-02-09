@@ -54,3 +54,29 @@ Connect EC2 to your local machine
 
 ![](pics/GitBash.png)
 ![](pics/ec2-to-local-m.png)
+
+
+### Installing Nginx Web Server
+
+* The Nginx is a high performance web server which will help to display web pages. The use of apt package is crucial to install the Nginx web server. 
+
+Execute the following commands to install Nginx
+
+![](pics/nginx-install.png)
+![](pics/nginx-install1.png)
+
+To verify that nginx was successfully installed and is running as a service in Ubuntu, run the following command:
+![](pics/nginx-succ-install.png)
+
+If it is green and running, meaning the Web Server has launched successfully.
+![](pics/nginx-green.png)
+
+In order to receive and traffic by our Web Server, it is important to open TCP port 80 which is that default part that web browsers use to access web pages in the internet. 
+
+![](pics/inbound-rule1.png)
+![](pics/inbound-rule2.png)
+![](pics/inbound-rule3.png)
+
+To test how our Nginx server can respond to requests from the Internet. Open a web browser of your choice and try to access following url: 
+![](pics/welcome0-nginx.png)
+![](pics/welcome-nginx.png)
