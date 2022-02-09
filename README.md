@@ -23,3 +23,34 @@ PHP is the programming language.  It is an open source scripting language that w
 As the tittle indicates, this project will be deploy in the AWS Cloud platform.  An AWS account and a virtual server with Ubuntu Server OS must setup.
 AWS is one the major Cloud Service Providers, and it provides a free virtual server called EC2 stands for Elastic Computer Cloud.  
 These screenshots below will show the followings:
+
+Create an AWS account
+
+![](pics/aws.png)
+
+![](pics/aws-console.png)
+
+Search for EC2
+
+![](pics/ec2.png)
+
+
+Select the AMI: Ubuntu Server 20.25 LTS
+
+![](pics/ec2-ami.png)
+
+![](pics/ec2-type.png)
+
+Select a key pair: No need to create a new key pair, use the existing key pair from Project 1. Remember, one key pair can be used for multiple EC2 instances.
+
+![](pics/ec2-keypair-sel.png)
+
+![](pics/ec2-launch.png)
+
+![](pics/ec2-summary.png)
+
+
+Connect EC2 to your local machine
+
+![](pics/GitBash.png)
+![](pics/ec2-to-local-m.png)
