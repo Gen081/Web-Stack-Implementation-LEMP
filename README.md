@@ -175,3 +175,21 @@ A temporary landing page of the web application is now created
 ![](pics/config-nginx7.png)
 
 
+### Testing PHP with Nginx
+
+LEMP stack should now be completely set up.
+
+At this point testing is important to validate that Nginx can correctly hand .php files off to your PHP processor.
+
+![](pics/test-php.png)
+
+![](pics/test-php1.png)
+
+To access the config page on a web browser, enter this following command:
+
+![](pics/test-php2.png)
+
+![](pics/php.landing.png)
+
+
+
