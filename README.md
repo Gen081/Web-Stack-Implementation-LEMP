@@ -134,3 +134,44 @@ Combination of the php-fpm and php-mysql package require.  However it can be com
 
 The PHP components are now installed.
 
+
+### Configuring Nginx to Use PHP Processor
+
+When using the Nginx web server, we can create server blocks (similar to virtual hosts in Apache) to encapsulate configuration details and host more than one domain on a single server. In this project, projectLEMP will be used as domain name example.
+
+Create the root web directory for your_domain as follows:
+
+![](pics/config-nginx.png)
+
+
+then assign ownership of the directory with the $USER environment variable: 
+
+![](pics/config-nginx1.png)
+
+
+
+Next, open a new configuration file in Nginx’s sites-available
+
+![](pics/config-nginx2.png)
+
+![](pics/config-nginx3.png)
+
+
+Activate your configuration by linking to the config file from Nginx’s `sites-enabled` directory:
+
+![](pics/config-nginx4.png)
+
+Test configuration for syntax errors 
+
+![](pics/config-nginx5.png)
+
+
+Open the website URL using IP address: 
+
+![](pics/config-nginx6.png)
+
+A temporary landing page of the web application is now created
+
+![](pics/config-nginx7.png)
+
+
