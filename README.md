@@ -110,3 +110,11 @@ For the rest of the questions, press Y and hit the ENTER key at each prompt.
 test if you’re able to log in to the MySQL console by typing:
 
 ![](pics/mysql6.png)
+![](pics/mysql7.png)
+
+To exit the MySQL console, type:
+
+![](pics/mysql8.png)
+![](pics/mysql9.png)
+
+The MySQL server is now installed and secured.
