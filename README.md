@@ -49,6 +49,7 @@ Select a key pair: No need to create a new key pair, use the existing key pair f
 
 
 Connect EC2 to your local machine
+
 ![](pics/GitBash.png)
 
 ![](pics/ec2-to-local-m.png)
@@ -93,6 +94,7 @@ Now that the Nginx web server is up and running, you need to install a Database
 ![](pics/mysql1.png)
 
 Start the interactive script by running this command:
+
 ![](pics/mysql2.png)
 
 ![](pics/mysql3.png)
@@ -115,6 +117,7 @@ test if you’re able to log in to the MySQL console by typing:
 To exit the MySQL console, type:
 
 ![](pics/mysql8.png)
+
 ![](pics/mysql9.png)
 
 The MySQL server is now installed and secured.
@@ -128,5 +131,6 @@ Combination of the php-fpm and php-mysql package require.  However it can be com
 
 ![](pics/php.png)
 ![](pics/php1.png)
+
 The PHP components are now installed.
 
