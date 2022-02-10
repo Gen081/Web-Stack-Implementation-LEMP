@@ -45,14 +45,12 @@ Select a key pair: No need to create a new key pair, use the existing key pair f
 
 ![](pics/ec2-keypair-sel.png)
 
-![](pics/ec2-launch.png)
-
 ![](pics/ec2-summary.png)
 
 
 Connect EC2 to your local machine
-
 ![](pics/GitBash.png)
+
 ![](pics/ec2-to-local-m.png)
 
 
@@ -63,20 +61,52 @@ Connect EC2 to your local machine
 Execute the following commands to install Nginx
 
 ![](pics/nginx-install.png)
+
 ![](pics/nginx-install1.png)
 
 To verify that nginx was successfully installed and is running as a service in Ubuntu, run the following command:
 ![](pics/nginx-succ-install.png)
 
 If it is green and running, meaning the Web Server has launched successfully.
+
 ![](pics/nginx-green.png)
 
 In order to receive and traffic by our Web Server, it is important to open TCP port 80 which is that default part that web browsers use to access web pages in the internet. 
 
 ![](pics/inbound-rule1.png)
+
 ![](pics/inbound-rule2.png)
+
 ![](pics/inbound-rule3.png)
 
 To test how our Nginx server can respond to requests from the Internet. Open a web browser of your choice and try to access following url: 
+
 ![](pics/welcome0-nginx.png)
+
 ![](pics/welcome-nginx.png)
+
+### Installing MySql
+
+Now that the Nginx web server is up and running, you need to install a Database Management System (DBMS). MySQL is an open source relational database management system for storing application data. This particular database system is very suitable for this project.  
+
+![](pics/mysql.png)
+![](pics/mysql1.png)
+
+Start the interactive script by running this command:
+![](pics/mysql2.png)
+
+![](pics/mysql3.png)
+
+
+Request for the VALIDATE PASSWORD PLUGIN configuration.
+
+![](pics/mysql4.png)
+
+For the rest of the questions, press Y and hit the ENTER key at each prompt.
+
+![](pics/mysql5.png)
+
+
+test if you’re able to log in to the MySQL console by typing:
+
+![](pics/mysql6.png)
