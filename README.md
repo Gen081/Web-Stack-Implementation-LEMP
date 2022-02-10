@@ -118,3 +118,15 @@ To exit the MySQL console, type:
 ![](pics/mysql9.png)
 
 The MySQL server is now installed and secured.
+
+### Installing PHP
+
+At this point, the Nginx installed to serve the content and MySQL installed to store and manage the data. Next step is to install PHP which will process code and generate dynamic content for the web server.
+
+While Apache embeds the PHP interpreter in each request, Nginx requires an external program to handle PHP processing and act as a bridge between the PHP interpreter itself and the web server. This allows for a better overall performance in most PHP-based websites, but it requires additional configuration.
+Combination of the php-fpm and php-mysql package require.  However it can be combine as one such as : 
+
+![](pics/php.png)
+![](pics/php1.png)
+The PHP components are now installed.
+
