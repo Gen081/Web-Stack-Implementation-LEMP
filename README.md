@@ -192,4 +192,58 @@ To access the config page on a web browser, enter this following command:
 ![](pics/php.landing.png)
 
 
+### Retrieving data from MySQL database with PHP
+
+In this step, a test database (DB) with simple “To do list” will be create and configure access to it, so the Nginx website would be able to query data from the DB and display it.
+
+First, connect to the MySQL console using the root account:
+
+![](pics/retrieving-d.png)
+
+To create a new database, run the following command from your MySQL console:
+
+![](pics/database.png) 
+
+Now new user to be created and granted full privileges on the database with the following commands:
+
+![](pics/Mysql0.1.png)
+
+![](pics/Mysql0.2.png)
+
+![](pics/Mysql0.3.png)
+
+![](pics/Mysql0.4.png)
+
+To see if the  new user has the proper permissions a test is required, by logging in to the MySQL console again.
+
+![](pics/Mysql0.5.png)
+
+At this point, some might witness the following error 
+
+![](pics/Mysql-issue.png)
+
+
+In order to troubleshoot that error, please insert the following commands:
+
+![](pics/MysqlT.png)
+
+Now, time to create the test table todo_list content :
+
+![](pics/MysqlTodo.png)
+
+Now that the todo_list table is complete, we can create a PHP script that will connect to MySQL and query for the table content, with the following:
+![](pics/MysqlTodo1.png)
+
+
+Copy this content into the todo_list.php script:
+
+![](pics/MysqlTodo2.png)
+
+Save and close the file when done editing.
+
+Now, it is possible to access this page in a web browser
+
+![](pics/todo-browser.png)
+
+
 
